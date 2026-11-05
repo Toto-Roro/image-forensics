@@ -1,0 +1,16 @@
+# Core image processing / computer vision
+opencv-python-headless>=4.8   # ORB, SIFT, BFMatcher, FLANN, RANSAC, morphology
+numpy>=1.24
+scipy>=1.10                   # hierarchical clustering of keypoints
+scikit-image>=0.21            # bundled sample photos for the synthetic generator
+Pillow>=10.0                  # robust file validation
+
+# Visualisation, reporting, data handling
+matplotlib>=3.7               # PDF reports, confusion matrix
+pandas>=2.0
+
+# Frontend
+streamlit>=1.50
+
+# Testing
+pytest>=7.0
